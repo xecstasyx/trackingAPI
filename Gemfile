@@ -65,7 +65,7 @@ group :development, :test do
   # permite crear datos para los test
   gem 'factory_girl_rails'
   # helper para los test
-  gem 'shoulda-matchers', require: false
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'ffaker'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
